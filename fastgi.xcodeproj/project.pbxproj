@@ -3,19 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		011EC96D32A9B2E1E8CEA486 /* Pods_fastgi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F36436B3BA92CFBD7CFB1FC /* Pods_fastgi.framework */; };
 		9207AD09254E0F74001D62DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD08254E0F74001D62DD /* AppDelegate.swift */; };
 		9207AD0B254E0F74001D62DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD0A254E0F74001D62DD /* SceneDelegate.swift */; };
 		9207AD0D254E0F74001D62DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD0C254E0F74001D62DD /* ContentView.swift */; };
 		9207AD0F254E0F78001D62DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9207AD0E254E0F78001D62DD /* Assets.xcassets */; };
 		9207AD12254E0F78001D62DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9207AD11254E0F78001D62DD /* Preview Assets.xcassets */; };
 		9207AD15254E0F78001D62DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9207AD13254E0F78001D62DD /* LaunchScreen.storyboard */; };
+		9207AD2C254E1505001D62DD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD2B254E1505001D62DD /* ImagePicker.swift */; };
+		9207AD2F254E1517001D62DD /* PhotoCaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD2E254E1516001D62DD /* PhotoCaptureView.swift */; };
+		9207AD33254E1535001D62DD /* NavigationRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD32254E1535001D62DD /* NavigationRoot.swift */; };
+		9207AD37254E1560001D62DD /* AuthState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD36254E1560001D62DD /* AuthState.swift */; };
+		9207AD3B254E157E001D62DD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD3A254E157E001D62DD /* Login.swift */; };
+		9207AD3E254E1588001D62DD /* Recargas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD3D254E1588001D62DD /* Recargas.swift */; };
+		9207AD41254E158F001D62DD /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD40254E158F001D62DD /* Contacts.swift */; };
+		9207AD44254E159F001D62DD /* UpdateUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD43254E159F001D62DD /* UpdateUser.swift */; };
+		9207AD47254E15A4001D62DD /* ImageAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD46254E15A4001D62DD /* ImageAvatar.swift */; };
+		9207AD4B254E15C6001D62DD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD4A254E15C6001D62DD /* LoginViewModel.swift */; };
+		9207AD4E254E15CE001D62DD /* RecargaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD4D254E15CE001D62DD /* RecargaViewModel.swift */; };
+		9207AD51254E15D4001D62DD /* ImportContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD50254E15D4001D62DD /* ImportContactsViewModel.swift */; };
+		9207AD54254E15DA001D62DD /* ContactsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD53254E15D9001D62DD /* ContactsViewModel.swift */; };
+		9207AD57254E15DF001D62DD /* UpdateUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD56254E15DF001D62DD /* UpdateUserViewModel.swift */; };
+		9207AD5A254E15E5001D62DD /* ImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD59254E15E5001D62DD /* ImageViewModel.swift */; };
+		9207AD5E254E1607001D62DD /* UsuarioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD5D254E1607001D62DD /* UsuarioModel.swift */; };
+		9207AD61254E160D001D62DD /* ErrorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD60254E160D001D62DD /* ErrorModel.swift */; };
+		9207AD64254E1613001D62DD /* UpdateUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD63254E1613001D62DD /* UpdateUserModel.swift */; };
+		9207AD67254E161A001D62DD /* RecargaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD66254E161A001D62DD /* RecargaModel.swift */; };
+		9207AD6A254E1622001D62DD /* ContactsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD69254E1622001D62DD /* ContactsModel.swift */; };
+		9207AD6D254E1628001D62DD /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD6C254E1628001D62DD /* ContactModel.swift */; };
+		9207AD70254E162E001D62DD /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD6F254E162E001D62DD /* ImageModel.swift */; };
+		9207AD74254E166F001D62DD /* DataUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD73254E166F001D62DD /* DataUserResponse.swift */; };
+		9207AD77254E1675001D62DD /* SmsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD76254E1675001D62DD /* SmsResponse.swift */; };
+		9207AD7A254E167A001D62DD /* RecargaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD79254E167A001D62DD /* RecargaResponse.swift */; };
+		9207AD7D254E167F001D62DD /* ContactsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD7C254E167F001D62DD /* ContactsResponse.swift */; };
+		9207AD80254E1685001D62DD /* UpdateUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD7F254E1685001D62DD /* UpdateUserResponse.swift */; };
+		9207AD83254E168B001D62DD /* ImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD82254E168B001D62DD /* ImageResponse.swift */; };
+		9207AD89254E16E1001D62DD /* FormLoadCreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD88254E16E1001D62DD /* FormLoadCreditView.swift */; };
+		9207AD8D254E1718001D62DD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD8C254E1718001D62DD /* HomeView.swift */; };
+		9207AD91254E1737001D62DD /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD90254E1737001D62DD /* SettingView.swift */; };
+		9207AD94254E173D001D62DD /* TermsAndConditionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD93254E173D001D62DD /* TermsAndConditionsView.swift */; };
+		9207AD97254E1742001D62DD /* FormUserDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD96254E1742001D62DD /* FormUserDataView.swift */; };
+		9207AD9B254E176B001D62DD /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD9A254E176B001D62DD /* HistoryView.swift */; };
+		9207AD9F254E1787001D62DD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207AD9E254E1787001D62DD /* LoginView.swift */; };
+		9207ADA2254E178F001D62DD /* BrokenRulesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADA1254E178F001D62DD /* BrokenRulesView.swift */; };
+		9207ADA5254E1795001D62DD /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADA4254E1795001D62DD /* CodeView.swift */; };
+		9207ADAA254E1806001D62DD /* BtnsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADA9254E1806001D62DD /* BtnsView.swift */; };
+		9207ADAD254E180C001D62DD /* ContentButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADAC254E180C001D62DD /* ContentButtonsView.swift */; };
+		9207ADB0254E1813001D62DD /* CardServiceHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADAF254E1813001D62DD /* CardServiceHomeView.swift */; };
+		9207ADB3254E181B001D62DD /* ListAreaCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADB2254E181B001D62DD /* ListAreaCodeView.swift */; };
+		9207ADB6254E1821001D62DD /* Loader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADB5254E1821001D62DD /* Loader.swift */; };
+		9207ADB9254E182F001D62DD /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADB8254E182F001D62DD /* TabsView.swift */; };
+		9207ADBC254E1835001D62DD /* HeaderUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADBB254E1835001D62DD /* HeaderUserView.swift */; };
+		9207ADBF254E1843001D62DD /* CardServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADBE254E1843001D62DD /* CardServiceView.swift */; };
+		9207ADC2254E1849001D62DD /* ButtonCreditAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADC1254E1849001D62DD /* ButtonCreditAmountView.swift */; };
+		9207ADC5254E184F001D62DD /* BtnsEmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADC4254E184F001D62DD /* BtnsEmView.swift */; };
+		9207ADC8254E1855001D62DD /* InputCreditAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADC7254E1855001D62DD /* InputCreditAmountView.swift */; };
+		9207ADCB254E185B001D62DD /* TransactionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADCA254E185B001D62DD /* TransactionDetailView.swift */; };
+		9207ADCE254E1887001D62DD /* ListContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADCD254E1887001D62DD /* ListContactsView.swift */; };
+		9207ADD1254E188E001D62DD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADD0254E188E001D62DD /* SearchBar.swift */; };
+		9207ADD4254E1896001D62DD /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADD3254E1896001D62DD /* MenuView.swift */; };
+		9207ADD7254E189F001D62DD /* CreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADD6254E189F001D62DD /* CreditCardView.swift */; };
+		9207ADDA254E18A5001D62DD /* FormCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADD9254E18A5001D62DD /* FormCreditCardView.swift */; };
+		9207ADDE254E18DD001D62DD /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADDD254E18DD001D62DD /* Styles.swift */; };
+		9207ADE1254E18E3001D62DD /* SelectCreditCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADE0254E18E3001D62DD /* SelectCreditCardView.swift */; };
+		9207ADE6254E1912001D62DD /* BrokenRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADE5254E1912001D62DD /* BrokenRule.swift */; };
+		9207ADE9254E1917001D62DD /* Validation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADE8254E1917001D62DD /* Validation+Extensions.swift */; };
+		9207ADEC254E191D001D62DD /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9207ADEB254E191D001D62DD /* Optional+Extensions.swift */; };
+		9207ADF0254E1B08001D62DD /* ValidatedPropertyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9207ADEF254E1B08001D62DD /* ValidatedPropertyKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40CBCBBAA5E76917E72D79A7 /* Pods-fastgi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastgi.debug.xcconfig"; path = "Target Support Files/Pods-fastgi/Pods-fastgi.debug.xcconfig"; sourceTree = "<group>"; };
+		8F36436B3BA92CFBD7CFB1FC /* Pods_fastgi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fastgi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9207AD05254E0F73001D62DD /* fastgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fastgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9207AD08254E0F74001D62DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9207AD0A254E0F74001D62DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +87,66 @@
 		9207AD11254E0F78001D62DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9207AD14254E0F78001D62DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9207AD16254E0F78001D62DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9207AD2B254E1505001D62DD /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImagePicker.swift; path = ../../../Dev_Release/Fastgi_v1.1/Camera/ImagePicker.swift; sourceTree = "<group>"; };
+		9207AD2E254E1516001D62DD /* PhotoCaptureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCaptureView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Camera/PhotoCaptureView.swift; sourceTree = "<group>"; };
+		9207AD32254E1535001D62DD /* NavigationRoot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationRoot.swift; path = ../../../Dev_Release/Fastgi_v1.1/NavigationRoot/NavigationRoot.swift; sourceTree = "<group>"; };
+		9207AD36254E1560001D62DD /* AuthState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthState.swift; path = ../../../Dev_Release/Fastgi_v1.1/Services/AuthState.swift; sourceTree = "<group>"; };
+		9207AD3A254E157E001D62DD /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Login.swift; path = ../../../Dev_Release/Fastgi_v1.1/Api/Login.swift; sourceTree = "<group>"; };
+		9207AD3D254E1588001D62DD /* Recargas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recargas.swift; path = ../../../Dev_Release/Fastgi_v1.1/Api/Recargas.swift; sourceTree = "<group>"; };
+		9207AD40254E158F001D62DD /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contacts.swift; path = ../../../Dev_Release/Fastgi_v1.1/Api/Contacts.swift; sourceTree = "<group>"; };
+		9207AD43254E159F001D62DD /* UpdateUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateUser.swift; path = ../../../Dev_Release/Fastgi_v1.1/Api/UpdateUser.swift; sourceTree = "<group>"; };
+		9207AD46254E15A4001D62DD /* ImageAvatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageAvatar.swift; path = ../../../Dev_Release/Fastgi_v1.1/Api/ImageAvatar.swift; sourceTree = "<group>"; };
+		9207AD4A254E15C6001D62DD /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/ViewModel/LoginViewModel.swift; sourceTree = "<group>"; };
+		9207AD4D254E15CE001D62DD /* RecargaViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecargaViewModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/ViewModel/RecargaViewModel.swift; sourceTree = "<group>"; };
+		9207AD50254E15D4001D62DD /* ImportContactsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImportContactsViewModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/ViewModel/ImportContactsViewModel.swift; sourceTree = "<group>"; };
+		9207AD53254E15D9001D62DD /* ContactsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsViewModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/ViewModel/ContactsViewModel.swift; sourceTree = "<group>"; };
+		9207AD56254E15DF001D62DD /* UpdateUserViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateUserViewModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/ViewModel/UpdateUserViewModel.swift; sourceTree = "<group>"; };
+		9207AD59254E15E5001D62DD /* ImageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/ViewModel/ImageViewModel.swift; sourceTree = "<group>"; };
+		9207AD5D254E1607001D62DD /* UsuarioModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsuarioModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/Model/UsuarioModel.swift; sourceTree = "<group>"; };
+		9207AD60254E160D001D62DD /* ErrorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ErrorModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/Model/ErrorModel.swift; sourceTree = "<group>"; };
+		9207AD63254E1613001D62DD /* UpdateUserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateUserModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/Model/UpdateUserModel.swift; sourceTree = "<group>"; };
+		9207AD66254E161A001D62DD /* RecargaModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecargaModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/Model/RecargaModel.swift; sourceTree = "<group>"; };
+		9207AD69254E1622001D62DD /* ContactsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/Model/ContactsModel.swift; sourceTree = "<group>"; };
+		9207AD6C254E1628001D62DD /* ContactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/Model/ContactModel.swift; sourceTree = "<group>"; };
+		9207AD6F254E162E001D62DD /* ImageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageModel.swift; path = ../../../Dev_Release/Fastgi_v1.1/Model/ImageModel.swift; sourceTree = "<group>"; };
+		9207AD73254E166F001D62DD /* DataUserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataUserResponse.swift; path = ../../../Dev_Release/Fastgi_v1.1/Response/DataUserResponse.swift; sourceTree = "<group>"; };
+		9207AD76254E1675001D62DD /* SmsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SmsResponse.swift; path = ../../../Dev_Release/Fastgi_v1.1/Response/SmsResponse.swift; sourceTree = "<group>"; };
+		9207AD79254E167A001D62DD /* RecargaResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecargaResponse.swift; path = ../../../Dev_Release/Fastgi_v1.1/Response/RecargaResponse.swift; sourceTree = "<group>"; };
+		9207AD7C254E167F001D62DD /* ContactsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContactsResponse.swift; path = ../../../Dev_Release/Fastgi_v1.1/Response/ContactsResponse.swift; sourceTree = "<group>"; };
+		9207AD7F254E1685001D62DD /* UpdateUserResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateUserResponse.swift; path = ../../../Dev_Release/Fastgi_v1.1/Response/UpdateUserResponse.swift; sourceTree = "<group>"; };
+		9207AD82254E168B001D62DD /* ImageResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageResponse.swift; path = ../../../Dev_Release/Fastgi_v1.1/Response/ImageResponse.swift; sourceTree = "<group>"; };
+		9207AD88254E16E1001D62DD /* FormLoadCreditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormLoadCreditView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/CreditLoad/FormLoadCreditView.swift; sourceTree = "<group>"; };
+		9207AD8C254E1718001D62DD /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/Home/HomeView.swift; sourceTree = "<group>"; };
+		9207AD90254E1737001D62DD /* SettingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/Settings/SettingView.swift; sourceTree = "<group>"; };
+		9207AD93254E173D001D62DD /* TermsAndConditionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TermsAndConditionsView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/Settings/TermsAndConditionsView.swift; sourceTree = "<group>"; };
+		9207AD96254E1742001D62DD /* FormUserDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormUserDataView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/Settings/FormUserDataView.swift; sourceTree = "<group>"; };
+		9207AD9A254E176B001D62DD /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/History/HistoryView.swift; sourceTree = "<group>"; };
+		9207AD9E254E1787001D62DD /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/Auth/LoginView.swift; sourceTree = "<group>"; };
+		9207ADA1254E178F001D62DD /* BrokenRulesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrokenRulesView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/Auth/BrokenRulesView.swift; sourceTree = "<group>"; };
+		9207ADA4254E1795001D62DD /* CodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CodeView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/View/Auth/CodeView.swift; sourceTree = "<group>"; };
+		9207ADA9254E1806001D62DD /* BtnsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtnsView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/Components/UI/BtnsView.swift; sourceTree = "<group>"; };
+		9207ADAC254E180C001D62DD /* ContentButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentButtonsView.swift; path = ../../../../Dev_Release/Fastgi_v1.1/Components/UI/ContentButtonsView.swift; sourceTree = "<group>"; };
+		9207ADAF254E1813001D62DD /* CardServiceHomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardServiceHomeView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/CardServiceHomeView.swift; sourceTree = "<group>"; };
+		9207ADB2254E181B001D62DD /* ListAreaCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListAreaCodeView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/ListAreaCodeView.swift; sourceTree = "<group>"; };
+		9207ADB5254E1821001D62DD /* Loader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Loader.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/Loader.swift; sourceTree = "<group>"; };
+		9207ADB8254E182F001D62DD /* TabsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabsView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/TabsView.swift; sourceTree = "<group>"; };
+		9207ADBB254E1835001D62DD /* HeaderUserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderUserView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/HeaderUserView.swift; sourceTree = "<group>"; };
+		9207ADBE254E1843001D62DD /* CardServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardServiceView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/CardServiceView.swift; sourceTree = "<group>"; };
+		9207ADC1254E1849001D62DD /* ButtonCreditAmountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonCreditAmountView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/ButtonCreditAmountView.swift; sourceTree = "<group>"; };
+		9207ADC4254E184F001D62DD /* BtnsEmView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BtnsEmView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/BtnsEmView.swift; sourceTree = "<group>"; };
+		9207ADC7254E1855001D62DD /* InputCreditAmountView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = InputCreditAmountView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/InputCreditAmountView.swift; sourceTree = "<group>"; };
+		9207ADCA254E185B001D62DD /* TransactionDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransactionDetailView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/TransactionDetailView.swift; sourceTree = "<group>"; };
+		9207ADCD254E1887001D62DD /* ListContactsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListContactsView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/ListContactsView.swift; sourceTree = "<group>"; };
+		9207ADD0254E188E001D62DD /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchBar.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/SearchBar.swift; sourceTree = "<group>"; };
+		9207ADD3254E1896001D62DD /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/MenuView.swift; sourceTree = "<group>"; };
+		9207ADD6254E189F001D62DD /* CreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreditCardView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/CreditCardView.swift; sourceTree = "<group>"; };
+		9207ADD9254E18A5001D62DD /* FormCreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormCreditCardView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Components/FormCreditCardView.swift; sourceTree = "<group>"; };
+		9207ADDD254E18DD001D62DD /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Styles.swift; path = ../../../Dev_Release/Fastgi_v1.1/Styles/Styles.swift; sourceTree = "<group>"; };
+		9207ADE0254E18E3001D62DD /* SelectCreditCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectCreditCardView.swift; path = ../../../Dev_Release/Fastgi_v1.1/Styles/SelectCreditCardView.swift; sourceTree = "<group>"; };
+		9207ADE5254E1912001D62DD /* BrokenRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BrokenRule.swift; path = ../../../Dev_Release/Fastgi_v1.1/Validation/BrokenRule.swift; sourceTree = "<group>"; };
+		9207ADE8254E1917001D62DD /* Validation+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Validation+Extensions.swift"; path = "../../../Dev_Release/Fastgi_v1.1/Validation/Validation+Extensions.swift"; sourceTree = "<group>"; };
+		9207ADEB254E191D001D62DD /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Optional+Extensions.swift"; path = "../../../Dev_Release/Fastgi_v1.1/Validation/Optional+Extensions.swift"; sourceTree = "<group>"; };
+		9E75C8499ED9EE56D5CB20AD /* Pods-fastgi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fastgi.release.xcconfig"; path = "Target Support Files/Pods-fastgi/Pods-fastgi.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +154,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				011EC96D32A9B2E1E8CEA486 /* Pods_fastgi.framework in Frameworks */,
+				9207ADF0254E1B08001D62DD /* ValidatedPropertyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74F8C77C89E8DE9E7A8FC9BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40CBCBBAA5E76917E72D79A7 /* Pods-fastgi.debug.xcconfig */,
+				9E75C8499ED9EE56D5CB20AD /* Pods-fastgi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9207ACFC254E0F73001D62DD = {
 			isa = PBXGroup;
 			children = (
 				9207AD07254E0F73001D62DD /* fastgi */,
 				9207AD06254E0F73001D62DD /* Products */,
+				74F8C77C89E8DE9E7A8FC9BE /* Pods */,
+				C9532D3C3C4AC93BD1AEBE46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +192,17 @@
 		9207AD07254E0F73001D62DD /* fastgi */ = {
 			isa = PBXGroup;
 			children = (
+				9207AD2A254E14F3001D62DD /* Camera */,
+				9207AD31254E1525001D62DD /* NavigationRoot */,
+				9207AD35254E154A001D62DD /* Services */,
+				9207AD39254E1569001D62DD /* Api */,
+				9207AD49254E15AE001D62DD /* ViewModel */,
+				9207AD5C254E15F1001D62DD /* Model */,
+				9207AD72254E163B001D62DD /* Response */,
+				9207AD85254E1695001D62DD /* View */,
+				9207ADA7254E17A4001D62DD /* Components */,
+				9207ADDC254E18C7001D62DD /* Styles */,
+				9207ADE4254E1901001D62DD /* Validation */,
 				9207AD08254E0F74001D62DD /* AppDelegate.swift */,
 				9207AD0A254E0F74001D62DD /* SceneDelegate.swift */,
 				9207AD0C254E0F74001D62DD /* ContentView.swift */,
@@ -75,6 +222,198 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		9207AD2A254E14F3001D62DD /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD2E254E1516001D62DD /* PhotoCaptureView.swift */,
+				9207AD2B254E1505001D62DD /* ImagePicker.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		9207AD31254E1525001D62DD /* NavigationRoot */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD32254E1535001D62DD /* NavigationRoot.swift */,
+			);
+			path = NavigationRoot;
+			sourceTree = "<group>";
+		};
+		9207AD35254E154A001D62DD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD36254E1560001D62DD /* AuthState.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9207AD39254E1569001D62DD /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD46254E15A4001D62DD /* ImageAvatar.swift */,
+				9207AD43254E159F001D62DD /* UpdateUser.swift */,
+				9207AD40254E158F001D62DD /* Contacts.swift */,
+				9207AD3D254E1588001D62DD /* Recargas.swift */,
+				9207AD3A254E157E001D62DD /* Login.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		9207AD49254E15AE001D62DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD59254E15E5001D62DD /* ImageViewModel.swift */,
+				9207AD56254E15DF001D62DD /* UpdateUserViewModel.swift */,
+				9207AD53254E15D9001D62DD /* ContactsViewModel.swift */,
+				9207AD50254E15D4001D62DD /* ImportContactsViewModel.swift */,
+				9207AD4D254E15CE001D62DD /* RecargaViewModel.swift */,
+				9207AD4A254E15C6001D62DD /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9207AD5C254E15F1001D62DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD6F254E162E001D62DD /* ImageModel.swift */,
+				9207AD6C254E1628001D62DD /* ContactModel.swift */,
+				9207AD69254E1622001D62DD /* ContactsModel.swift */,
+				9207AD66254E161A001D62DD /* RecargaModel.swift */,
+				9207AD63254E1613001D62DD /* UpdateUserModel.swift */,
+				9207AD60254E160D001D62DD /* ErrorModel.swift */,
+				9207AD5D254E1607001D62DD /* UsuarioModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9207AD72254E163B001D62DD /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD82254E168B001D62DD /* ImageResponse.swift */,
+				9207AD7F254E1685001D62DD /* UpdateUserResponse.swift */,
+				9207AD7C254E167F001D62DD /* ContactsResponse.swift */,
+				9207AD79254E167A001D62DD /* RecargaResponse.swift */,
+				9207AD76254E1675001D62DD /* SmsResponse.swift */,
+				9207AD73254E166F001D62DD /* DataUserResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		9207AD85254E1695001D62DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD9D254E177A001D62DD /* Auth */,
+				9207AD87254E16CF001D62DD /* CreditLoad */,
+				9207AD8B254E170F001D62DD /* Home */,
+				9207AD8F254E1725001D62DD /* Settings */,
+				9207AD99254E1759001D62DD /* History */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9207AD87254E16CF001D62DD /* CreditLoad */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD88254E16E1001D62DD /* FormLoadCreditView.swift */,
+			);
+			path = CreditLoad;
+			sourceTree = "<group>";
+		};
+		9207AD8B254E170F001D62DD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD8C254E1718001D62DD /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9207AD8F254E1725001D62DD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD96254E1742001D62DD /* FormUserDataView.swift */,
+				9207AD93254E173D001D62DD /* TermsAndConditionsView.swift */,
+				9207AD90254E1737001D62DD /* SettingView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		9207AD99254E1759001D62DD /* History */ = {
+			isa = PBXGroup;
+			children = (
+				9207AD9A254E176B001D62DD /* HistoryView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		9207AD9D254E177A001D62DD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				9207ADA4254E1795001D62DD /* CodeView.swift */,
+				9207ADA1254E178F001D62DD /* BrokenRulesView.swift */,
+				9207AD9E254E1787001D62DD /* LoginView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9207ADA7254E17A4001D62DD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9207ADA8254E17C3001D62DD /* UI */,
+				9207ADD9254E18A5001D62DD /* FormCreditCardView.swift */,
+				9207ADD6254E189F001D62DD /* CreditCardView.swift */,
+				9207ADD3254E1896001D62DD /* MenuView.swift */,
+				9207ADD0254E188E001D62DD /* SearchBar.swift */,
+				9207ADCD254E1887001D62DD /* ListContactsView.swift */,
+				9207ADCA254E185B001D62DD /* TransactionDetailView.swift */,
+				9207ADC7254E1855001D62DD /* InputCreditAmountView.swift */,
+				9207ADC4254E184F001D62DD /* BtnsEmView.swift */,
+				9207ADC1254E1849001D62DD /* ButtonCreditAmountView.swift */,
+				9207ADBE254E1843001D62DD /* CardServiceView.swift */,
+				9207ADBB254E1835001D62DD /* HeaderUserView.swift */,
+				9207ADB8254E182F001D62DD /* TabsView.swift */,
+				9207ADB5254E1821001D62DD /* Loader.swift */,
+				9207ADB2254E181B001D62DD /* ListAreaCodeView.swift */,
+				9207ADAF254E1813001D62DD /* CardServiceHomeView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		9207ADA8254E17C3001D62DD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9207ADAC254E180C001D62DD /* ContentButtonsView.swift */,
+				9207ADA9254E1806001D62DD /* BtnsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9207ADDC254E18C7001D62DD /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				9207ADE0254E18E3001D62DD /* SelectCreditCardView.swift */,
+				9207ADDD254E18DD001D62DD /* Styles.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		9207ADE4254E1901001D62DD /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				9207ADEB254E191D001D62DD /* Optional+Extensions.swift */,
+				9207ADE8254E1917001D62DD /* Validation+Extensions.swift */,
+				9207ADE5254E1912001D62DD /* BrokenRule.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		C9532D3C3C4AC93BD1AEBE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F36436B3BA92CFBD7CFB1FC /* Pods_fastgi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,15 +421,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9207AD19254E0F78001D62DD /* Build configuration list for PBXNativeTarget "fastgi" */;
 			buildPhases = (
+				B6F8A2646E452D5D23F8D0FD /* [CP] Check Pods Manifest.lock */,
 				9207AD01254E0F73001D62DD /* Sources */,
 				9207AD02254E0F73001D62DD /* Frameworks */,
 				9207AD03254E0F73001D62DD /* Resources */,
+				B9222B50DAE2C6B7AE7AAE26 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = fastgi;
+			packageProductDependencies = (
+				9207ADEF254E1B08001D62DD /* ValidatedPropertyKit */,
+			);
 			productName = fastgi;
 			productReference = 9207AD05254E0F73001D62DD /* fastgi.app */;
 			productType = "com.apple.product-type.application";
@@ -118,6 +462,9 @@
 				Base,
 			);
 			mainGroup = 9207ACFC254E0F73001D62DD;
+			packageReferences = (
+				9207ADEE254E1B08001D62DD /* XCRemoteSwiftPackageReference "ValidatedPropertyKit" */,
+			);
 			productRefGroup = 9207AD06254E0F73001D62DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -140,14 +487,115 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B6F8A2646E452D5D23F8D0FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fastgi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9222B50DAE2C6B7AE7AAE26 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fastgi/Pods-fastgi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-fastgi/Pods-fastgi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-fastgi/Pods-fastgi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9207AD01254E0F73001D62DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9207AD80254E1685001D62DD /* UpdateUserResponse.swift in Sources */,
+				9207AD6A254E1622001D62DD /* ContactsModel.swift in Sources */,
+				9207AD3E254E1588001D62DD /* Recargas.swift in Sources */,
+				9207AD9B254E176B001D62DD /* HistoryView.swift in Sources */,
+				9207AD7D254E167F001D62DD /* ContactsResponse.swift in Sources */,
+				9207AD6D254E1628001D62DD /* ContactModel.swift in Sources */,
+				9207ADBF254E1843001D62DD /* CardServiceView.swift in Sources */,
+				9207AD77254E1675001D62DD /* SmsResponse.swift in Sources */,
 				9207AD09254E0F74001D62DD /* AppDelegate.swift in Sources */,
+				9207AD47254E15A4001D62DD /* ImageAvatar.swift in Sources */,
+				9207ADCB254E185B001D62DD /* TransactionDetailView.swift in Sources */,
+				9207AD44254E159F001D62DD /* UpdateUser.swift in Sources */,
+				9207AD91254E1737001D62DD /* SettingView.swift in Sources */,
+				9207ADDA254E18A5001D62DD /* FormCreditCardView.swift in Sources */,
+				9207ADC2254E1849001D62DD /* ButtonCreditAmountView.swift in Sources */,
+				9207AD70254E162E001D62DD /* ImageModel.swift in Sources */,
+				9207ADB9254E182F001D62DD /* TabsView.swift in Sources */,
+				9207ADAD254E180C001D62DD /* ContentButtonsView.swift in Sources */,
+				9207ADE9254E1917001D62DD /* Validation+Extensions.swift in Sources */,
+				9207AD7A254E167A001D62DD /* RecargaResponse.swift in Sources */,
+				9207AD2C254E1505001D62DD /* ImagePicker.swift in Sources */,
+				9207AD97254E1742001D62DD /* FormUserDataView.swift in Sources */,
+				9207AD51254E15D4001D62DD /* ImportContactsViewModel.swift in Sources */,
+				9207AD9F254E1787001D62DD /* LoginView.swift in Sources */,
 				9207AD0B254E0F74001D62DD /* SceneDelegate.swift in Sources */,
+				9207AD4E254E15CE001D62DD /* RecargaViewModel.swift in Sources */,
+				9207AD57254E15DF001D62DD /* UpdateUserViewModel.swift in Sources */,
+				9207ADE1254E18E3001D62DD /* SelectCreditCardView.swift in Sources */,
+				9207AD41254E158F001D62DD /* Contacts.swift in Sources */,
+				9207AD61254E160D001D62DD /* ErrorModel.swift in Sources */,
+				9207ADB0254E1813001D62DD /* CardServiceHomeView.swift in Sources */,
+				9207AD83254E168B001D62DD /* ImageResponse.swift in Sources */,
+				9207ADA5254E1795001D62DD /* CodeView.swift in Sources */,
+				9207AD5E254E1607001D62DD /* UsuarioModel.swift in Sources */,
+				9207AD74254E166F001D62DD /* DataUserResponse.swift in Sources */,
+				9207ADEC254E191D001D62DD /* Optional+Extensions.swift in Sources */,
+				9207ADB3254E181B001D62DD /* ListAreaCodeView.swift in Sources */,
+				9207AD33254E1535001D62DD /* NavigationRoot.swift in Sources */,
+				9207AD4B254E15C6001D62DD /* LoginViewModel.swift in Sources */,
+				9207ADA2254E178F001D62DD /* BrokenRulesView.swift in Sources */,
+				9207ADC8254E1855001D62DD /* InputCreditAmountView.swift in Sources */,
+				9207AD94254E173D001D62DD /* TermsAndConditionsView.swift in Sources */,
+				9207ADCE254E1887001D62DD /* ListContactsView.swift in Sources */,
+				9207ADD7254E189F001D62DD /* CreditCardView.swift in Sources */,
+				9207ADAA254E1806001D62DD /* BtnsView.swift in Sources */,
+				9207ADD4254E1896001D62DD /* MenuView.swift in Sources */,
+				9207ADDE254E18DD001D62DD /* Styles.swift in Sources */,
+				9207AD5A254E15E5001D62DD /* ImageViewModel.swift in Sources */,
+				9207ADD1254E188E001D62DD /* SearchBar.swift in Sources */,
 				9207AD0D254E0F74001D62DD /* ContentView.swift in Sources */,
+				9207ADE6254E1912001D62DD /* BrokenRule.swift in Sources */,
+				9207AD2F254E1517001D62DD /* PhotoCaptureView.swift in Sources */,
+				9207AD64254E1613001D62DD /* UpdateUserModel.swift in Sources */,
+				9207AD8D254E1718001D62DD /* HomeView.swift in Sources */,
+				9207AD54254E15DA001D62DD /* ContactsViewModel.swift in Sources */,
+				9207AD67254E161A001D62DD /* RecargaModel.swift in Sources */,
+				9207AD89254E16E1001D62DD /* FormLoadCreditView.swift in Sources */,
+				9207ADC5254E184F001D62DD /* BtnsEmView.swift in Sources */,
+				9207AD37254E1560001D62DD /* AuthState.swift in Sources */,
+				9207AD3B254E157E001D62DD /* Login.swift in Sources */,
+				9207ADBC254E1835001D62DD /* HeaderUserView.swift in Sources */,
+				9207ADB6254E1821001D62DD /* Loader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +731,7 @@
 		};
 		9207AD1A254E0F78001D62DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40CBCBBAA5E76917E72D79A7 /* Pods-fastgi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -304,6 +753,7 @@
 		};
 		9207AD1B254E0F78001D62DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E75C8499ED9EE56D5CB20AD /* Pods-fastgi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -345,6 +795,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9207ADEE254E1B08001D62DD /* XCRemoteSwiftPackageReference "ValidatedPropertyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/ValidatedPropertyKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9207ADEF254E1B08001D62DD /* ValidatedPropertyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9207ADEE254E1B08001D62DD /* XCRemoteSwiftPackageReference "ValidatedPropertyKit" */;
+			productName = ValidatedPropertyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9207ACFD254E0F73001D62DD /* Project object */;
 }
